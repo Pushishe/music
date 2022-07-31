@@ -1,0 +1,139 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.Desktop {
+  width: 100%;
+  height: 100vh;
+}
+
+.Bar {
+  background: #E6E6E6;
+  height: 98px;
+  display: flex;
+  flex-direction: row;
+}
+
+.icons {
+  display: inline-flex;;
+  flex-direction: column;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+.icons>div>div:hover {
+  box-shadow: 0px 0px 15px black;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.active {
+  box-shadow: inset 0px 0px 5px black;
+  border-radius: 15px;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 5px;
+}
+.Title {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: auto;
+}
+.save {
+  background: #322a2a;
+  color: #ffffff;
+  border: 1px solid black;
+  max-width: 180px;
+  max-height: 40px;
+  border-radius: 100px;
+  margin-right: 5px;
+  margin-top: 24.5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.save:hover {
+  background: #E6E6E6;
+  color: #000000;
+  box-shadow: 0px 0px 15px black;
+}
+.save:active {
+  box-shadow: inset 0px 0px 5px black;
+}
+.Create {
+  display: flex;
+  min-height: 85vh;
+  flex-direction: column;
+  background: #ECECEC;
+  text-align: center;
+}
+.tab {
+  margin: 2% auto;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  width: 384px;
+  height: 104px;
+}
+.scorel {
+  font-size: 24px;
+  display: inline-flex;
+  flex-direction: row;
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+.metalel {
+  display: inline-flex;
+  flex-direction: row;
+}
+.drumel {
+  display: inline-flex;
+  flex-direction: row;
+}
+.bassel {
+  display: inline-flex;
+  flex-direction: row;
+}
+.number {
+  width: 24px;
+  height: 26px;
+  cursor: default;
+}
+.cell {
+  width: 24px;
+  height: 26px;
+  cursor: pointer;
+}
+.cell:hover {
+  box-shadow: 0px 0px 15px black;
+}
+.add {
+  font-size: 40px;
+  width: 180px;
+  margin: 0 auto;
+  border: 1px solid black;
+  border-radius: 100px;
+}
+.Footer {
+  background: #E6E6E6;
+  text-align: center;
+}
+.back {
+  background: #FFFFFF;
+  color: #322A2A;
+  border: 1px solid #322A2A;
+  width: 180px;
+  height: 40px;
+  border-radius: 100px;
+  margin-left: auto;
+  font-size: 24px;
+  cursor: pointer;
+}
+.back:hover {
+  background: #322A2A;
+  color: #E6E6E6;
+  box-shadow: 0px 0px 15px #322A2A;
+}
+.back:active {
+  box-shadow: inset 0px 0px 5px white;
+}
